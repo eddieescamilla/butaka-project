@@ -1,0 +1,36 @@
+/* ================================
+hero.css: banner principal "Tu lugar te espera."
+Responsable: Jose Edgardo Rosales Escamilla 00129426
+==================================== */
+
+.hero {
+    margin-top: var(--espacio-6);
+    padding: var(--espacio-8);
+    background-color: var(--lavanda);
+    border-radius: var(--radio-tarjeta);
+}
+
+.hero__titulo {
+    font-size: 3rem;
+}
+
+.hero__texto {
+    max-width: 560px;
+    margin-top: var(--espacio-3);
+    font-size: 1.125rem;
+    color: var(--texto-secundario);
+}
+
+.hero .boton {
+    margin-top: var(--espacio-4);
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: var(--espacio-4);
+    }
+    
+    .hero__titulo {
+        font-size: 2rem;        
+    }
+}

@@ -1,0 +1,23 @@
+/* ==========================================================
+   footer.css: pie de página
+   Responsable: Jose Edgardo Rosales Escamilla 00129426
+   ========================================================== */
+
+.footer {
+    background-color: var(--superficie);
+    border-top: 1px solid var(--borde);
+}
+
+.footer__contenido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--espacio-2);
+    padding-block: var(--espacio-6);
+}
+
+.footer__copy {
+    font-size: 0.875rem;
+    color: var(--texto-secundario);
+}

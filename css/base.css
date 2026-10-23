@@ -1,0 +1,51 @@
+/* ==========================================================
+base.css: Variables del manual de marca y estilos generales
+Responsable: Jose Edgardo Rosales Escamilla 00129426
+============================================================= */
+
+:root {
+    /* Colores vibrantes */
+    --primario: #E11D74;
+    --primario-hover: #B8155E;
+    --secundario: #7C3AED;
+
+    /* Colores pastel (uno por categoria de evento) */
+    --rosa-pastel: #FFD6E8;
+    --lavanda: #E4DAFF;
+    --menta: #CFF5E7;
+    --durazno: #FFE3CC;
+
+    /* Neutros */
+    --fondo: #FBF8FF;
+    --superficie: #FFFFFF;
+    --texto-principal: #1E1433;
+    --texto-secundario: #5C5470;
+    --borde: #EAE3F5;
+
+    /* Estados */
+    --exito: #15803D;
+    --error: #DC2626;
+    --advertencia: #F59E0B;
+
+    /* Tipografia */
+    --fuente-titulos: "Poppins", sans-serif;
+    --fuente-texto: "Inter", sans-serif;
+
+    /* Espaciado: sistema de 8 px */
+    --espacio-1: 8px;
+    --espacio-2: 16px;
+    --espacio-3: 24px;
+    --espacio-4: 32px;
+    --espacio-6: 48px;
+    --espacio-8: 64px;
+
+    /* Bordes redondeados */
+    --radio-boton: 8px;
+    --radio-tarjeta: 12px;
+    --radio-pildora: 999px;
+
+    /* Sombras sutiles (solo tarjetas y modales) */
+    --sombra-tarjeta: 0 2px 8px rgba(30, 20, 51, 0.06);
+    --sombra-modal: 0 16px 48px rgba(30, 20, 51, 0.2);
+
+}

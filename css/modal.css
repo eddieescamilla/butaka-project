@@ -1,0 +1,73 @@
+/* ==========================================================
+   modal.css: ventana de inicio de sesión (login.html)
+   Responsable: Gabriel
+   ========================================================== */
+
+/* Fondo oscuro que cubre toda la página */
+.modal-fondo {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espacio-2);
+  background-color: rgba(30, 20, 51, 0.45);
+}
+
+/* Caja blanca del modal */
+.modal {
+  width: min(456px, 100%);
+  padding: var(--espacio-6);
+  background-color: var(--superficie);
+  border-radius: var(--radio-tarjeta);
+  box-shadow: var(--sombra-modal);
+}
+
+/*  Formulario  */
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-3);
+}
+
+.formulario__campo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espacio-1);
+}
+
+.formulario__campo input {
+  height: 48px;
+  padding-inline: var(--espacio-2);
+  color: var(--texto-principal);
+  background-color: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio-boton);
+}
+
+.formulario__campo input::placeholder {
+  color: var(--texto-secundario);
+}
+
+.formulario__campo input:focus {
+  outline: none;
+  border-color: var(--secundario);
+  box-shadow: 0 0 0 3px var(--lavanda);
+}
+
+.formulario__acciones {
+  display: flex;
+  gap: var(--espacio-2);
+}
+
+.modal__enlace {
+  display: inline-block;
+  margin-top: var(--espacio-3);
+  font-size: 0.875rem;
+  color: var(--texto-secundario);
+}
+
+.modal__enlace:hover {
+  color: var(--secundario);
+  text-decoration: underline;
+}

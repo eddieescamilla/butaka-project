@@ -112,6 +112,30 @@
     </footer>
 
     <!-- MODAL (Gabriel) -->
+     <div class="modal-fondo">
+      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+        <h2 id="modal-titulo" class="sr-only">Iniciar sesión</h2>
+  
+      <form class="formulario" action="inicio.html" method="get">
+        <div class="formulario__campo">
+          <label for="correo">Correo electrónico</label>
+          <input type="email" id="correo" autocomplete="email" required>
+        </div>
+  
+        <div class="formulario__campo">
+          <label for="contrasena">Contraseña</label>
+          <input type="password" id="contrasena" placeholder="********" autocomplete="current-password" required>
+        </div>
+  
+        <div class="formulario__acciones">
+          <a href="index.html" class="boton boton--secundario">Cancelar</a>
+          <button type="submit" class="boton boton--primario">Iniciar sesión</button>
+        </div>
+      </form>
+  
+      <a href="#" class="modal__enlace">¿Olvidaste la contraseña?</a>
+    </section>
+  </div>
 </body>
 
 </html>

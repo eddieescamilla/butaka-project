@@ -62,3 +62,28 @@
     font-weight: 600;
     color: var(--primario);
 }
+
+/* ----------- Etiquetas de categoría ---------- */
+.etiqueta {
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--texto-principal);
+    border-radius: var(--radio-pildora);
+}
+
+.etiqueta--conciertos {
+    background-color: var(--rosa-pastel);
+}
+
+.etiqueta--teatro {
+    background-color: var(--lavanda);
+}
+
+.etiqueta--deportes {
+    background-color: var(--menta);
+}
+
+.etiqueta--otros {
+    background-color: var(--durazno);
+}

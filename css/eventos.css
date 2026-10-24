@@ -1,0 +1,89 @@
+/*=========================================================
+   eventos.css: Sección de ''Eventos destacados" y tarjetas
+   Responsable: Jose Edgardo Rosales Escamilla 00129426
+   ========================================================== */
+
+.eventos {
+    margin-block: var(--espacio-8);
+}
+
+.eventos__titulo {
+    margin-bottom: var(--espacio-4);
+    font-size: 2rem;
+}
+
+/* Cuadrícula: Caben tantas columnas como de mínimo 260px como permita la pantalla */
+.eventos__lista {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--espacio-3);
+}
+
+/* -----------Tarjeta---------- */
+.tarjeta {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio-tarjeta);
+    box-shadow: var(--sombra-tarjeta);
+}
+
+.tarjeta__imagen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.tarjeta__cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--espacio-1);
+    padding: var(--espacio-2) var(--espacio-3) var(--espacio-3);
+}
+
+.tarjeta__titulo {
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.tarjeta__fecha,
+.tarjeta__lugar {
+    font-size: 0.875rem;
+    color: var(--texto-secundario);
+}
+
+.tarjeta__precio {
+    margin-top: var(--espacio-1);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--primario);
+}
+
+/* ----------- Etiquetas de categoría ---------- */
+.etiqueta {
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--texto-principal);
+    border-radius: var(--radio-pildora);
+}
+
+.etiqueta--conciertos {
+    background-color: var(--rosa-pastel);
+}
+
+.etiqueta--teatro {
+    background-color: var(--lavanda);
+}
+
+.etiqueta--deportes {
+    background-color: var(--menta);
+}
+
+.etiqueta--otros {
+    background-color: var(--durazno);
+}

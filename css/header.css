@@ -75,3 +75,15 @@
 .header__saludo {
   color: var(--texto-secundario);
 }
+
+/* ---------- Pantallas pequeñas ---------- */
+@media (max-width: 900px) {
+  .header__contenido {
+    flex-wrap: wrap;
+  }
+
+  .buscador {
+    order: 1;
+    width: 100%;
+  }
+}

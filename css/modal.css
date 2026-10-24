@@ -49,6 +49,12 @@
   color: var(--texto-secundario);
 }
 
+.formulario__campo input:focus {
+  outline: none;
+  border-color: var(--secundario);
+  box-shadow: 0 0 0 3px var(--lavanda);
+}
+
 .formulario__acciones {
   display: flex;
   gap: var(--espacio-2);

@@ -21,7 +21,32 @@
 </head>
 
 <body>
-    <!-- HEADER (Gabriel) -->
+    <header class="header">
+        <div class="contenedor header__contenido">
+            <a href="index.html" class="logo">
+                <img src="img/logo-ticket.svg" alt="" width="40" height="40">
+                Butaka
+            </a>
+
+            <form class="buscador" role="search" action="#">
+                <label for="buscar" class="sr-only">Buscar eventos</label>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                </svg>
+                <input type="search" id="buscar" name="q" placeholder="Busca eventos, artistas o lugares">
+            </form>
+
+            <nav class="header__nav" aria-label="Navegación principal">
+                <ul>
+                    <li><a href="index.html" aria-current="page">Eventos</a></li>
+                    <li><a href="#">Mis boletos</a></li>
+                </ul>
+            </nav>
+
+            <a href="login.html" class="boton boton--primario">Iniciar sesión</a>
+        </div>
+    </header>
 
     <main>
         <section class="hero contenedor" aria-labelledby="hero-titulo">

@@ -13,12 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/eventos.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -31,9 +26,10 @@
 
             <form class="buscador" role="search" action="#">
                 <label for="buscar" class="sr-only">Buscar eventos</label>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-                    <circle cx="11" cy="11" r="8"/>
-                    <path d="m21 21-4.3-4.3"/>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    <circle cx="11" cy="11" r="8" />
+                    <path d="m21 21-4.3-4.3" />
                 </svg>
                 <input type="search" id="buscar" name="q" placeholder="Busca eventos, artistas o lugares">
             </form>
@@ -136,31 +132,31 @@
         </div>
     </footer>
 
-    <!-- MODAL (Gabriel) -->
-     <div class="modal-fondo">
-      <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
-        <h2 id="modal-titulo" class="sr-only">Iniciar sesión</h2>
-  
-      <form class="formulario" action="inicio.html" method="get">
-        <div class="formulario__campo">
-          <label for="correo">Correo electrónico</label>
-          <input type="email" id="correo" autocomplete="email" required>
-        </div>
-  
-        <div class="formulario__campo">
-          <label for="contrasena">Contraseña</label>
-          <input type="password" id="contrasena" placeholder="********" autocomplete="current-password" required>
-        </div>
-  
-        <div class="formulario__acciones">
-          <a href="index.html" class="boton boton--secundario">Cancelar</a>
-          <button type="submit" class="boton boton--primario">Iniciar sesión</button>
-        </div>
-      </form>
-  
-      <a href="#" class="modal__enlace">¿Olvidaste la contraseña?</a>
-    </section>
-  </div>
+    <div class="modal-fondo">
+        <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+            <h2 id="modal-titulo" class="sr-only">Iniciar sesión</h2>
+
+            <form class="formulario" action="inicio.html" method="get">
+                <div class="formulario__campo">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="email" id="correo" autocomplete="email" required>
+                </div>
+
+                <div class="formulario__campo">
+                    <label for="contrasena">Contraseña</label>
+                    <input type="password" id="contrasena" placeholder="********" autocomplete="current-password"
+                        required>
+                </div>
+
+                <div class="formulario__acciones">
+                    <a href="index.html" class="boton boton--secundario">Cancelar</a>
+                    <button type="submit" class="boton boton--primario">Iniciar sesión</button>
+                </div>
+            </form>
+
+            <a href="#" class="modal__enlace">¿Olvidaste la contraseña?</a>
+        </section>
+    </div>
 </body>
 
 </html>

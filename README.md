@@ -43,17 +43,13 @@ git clone https://github.com/eddieescamilla/butaka-project.git
 
 ```
 butaka-project/
-├── index.html
-├── login.html
-├── inicio.html
+├── index.html      Pantalla 1: inicio sin sesión
+├── login.html      Pantalla 1 con el modal de inicio de sesión
+├── inicio.html     Pantalla 2: inicio con sesión iniciada
 ├── css/
-│   ├── base.css      Variables del manual de marca y estilos generales
-│   ├── header.css    Encabezado y navegación
-│   ├── modal.css     Modal de inicio de sesión
-│   ├── hero.css      Banner principal
-│   ├── eventos.css   Sección de eventos destacados
-│   └── footer.css    Pie de página
-└── img/              Logo y fotos de los eventos
+│   └── style.css   Hoja de estilos única
+├── img/            Logo y fotos de los eventos
+└── README.md
 ```
 
 ## Reparto del trabajo
@@ -68,6 +64,7 @@ Dividimos el trabajo por componentes: Cada uno hizo el HTML y el CSS completo de
 | Footer | José Edgardo Rosales Escamilla |
 | Header (con y sin sesión iniciada) | Gabriel Enrique Mejía Castillo |
 | Modal de inicio de sesión | Gabriel Enrique Mejía Castillo |
+| Unificación del CSS, Grid en la estructura general y diseño responsive | José Edgardo Rosales Escamilla |
 
 ## Organización del trabajo
 
@@ -81,3 +78,4 @@ Dividimos el trabajo por componentes: Cada uno hizo el HTML y el CSS completo de
 - **Fuentes:** Poppins para títulos e Inter para el texto, de Google Fonts. 
 - **Clases con la convención BEM**, en español (Por ejemplo, `.tarjeta__titulo` y `.boton--primario`).
 - **Git:** Una rama por componente, unida a `main` mediante pull requests. 
+- **Diseño responsive** con tres breakpoints: desktop (1024px o más), tablet (768px a 1023px) y mobile (767px o menos).
